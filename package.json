@@ -1,0 +1,29 @@
+{
+    "name": "dom-sprite",
+    "title": "dom-sprite",
+    "version": "0.0.1",
+    "description": "Javascript game sprite for DOM.",
+    "homepage": "http://nikogu.github.io/dom-sprite/",
+    "main": "./src/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nikogu/dom-sprite"
+    },
+    "bugs": {
+        "url": "https://github.com/nikogu/dom-sprite/issues"
+    },
+    "devDependencies": {
+        "browserify": "9.0.3",
+        "gulp": "^3.8.11"
+    },
+    "dependencies": {
+        "gulp-rename": "^1.2.0",
+        "gulp-uglify": "^1.1.0"
+    },
+    "author": {
+        "name": "niko",
+        "email": "644506165@qq.com",
+        "url": "http://nikogu.github.io/dom-sprite/"
+    },
+    "npmName": "domSprite"
+}

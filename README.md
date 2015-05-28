@@ -7,3 +7,5 @@ The javascript game sprite for DOM.
 - Support TextruePacker JSON Hash
 
 - fast/easy/focus
+
+DEMO in ./demo

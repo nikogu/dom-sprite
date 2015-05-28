@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>test</title>
+    <style type="text/css">
+        @keyframes mymove {
+            from {
+                transform: rotate(0deg);
+                -webkit-transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+                -webkit-transform: rotate(360deg)
+            }
+        }
+        @-webkit-keyframes mymove {
+            from {
+                transform: rotate(0deg);
+                -webkit-transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        .test-div {
+            background: red;
+            position: absolute;
+            display: block;
+            width: 100px;
+            height: 100px;
+            animation:mymove 1s infinite;
+            -webkit-animation:mymove 1s infinite; /* Safari 和 Chrome */
+        }
+    </style>
+</head>
+<body>
+    <div class="test-div"></div>
+    <div class="test-div"></div>
+    <div class="test-div"></div>
+    <div class="test-div"></div>
+    <div class="test-div"></div>
+    <div class="test-div"></div>
+    <div class="test-div"></div>
+</body>
+</html>

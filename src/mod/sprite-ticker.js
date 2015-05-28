@@ -1,8 +1,11 @@
+/*
+* @copyright form http://gama.taobao.net/2/
+*/
+
 /* Ticker 是时间轴
  *   时间轴维持一个递归的 requestAnimaionFrame 或 setTimeout，每约 17ms 运行一次（一帧）
  *   调用 addTask 向 Ticker 中添加一项任务（任务，就是一个每一帧都会调用的函数）
  */
-
 
 /*
  * requestAnimationFrame pollyfill

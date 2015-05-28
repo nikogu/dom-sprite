@@ -2,8 +2,7 @@
  *
  * Sprite Matrix
  *
- * @author niko
- * @date 2014-07-27
+ * @copyright form rapheal.js
  *
  */
 
